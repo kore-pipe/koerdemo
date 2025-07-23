@@ -13,7 +13,13 @@
         android:theme="@style/Theme.Koerdemo"
         tools:targetApi="31">
         <activity
-            android:name="com.example.koerdemo.MainActivity"
+            android:name=".LinearLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMarginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Koerdemo">
             <intent-filter>
@@ -22,6 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity2" />
     </application>
 
 </manifest>
