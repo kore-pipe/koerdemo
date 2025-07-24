@@ -13,13 +13,31 @@
         android:theme="@style/Theme.Koerdemo"
         tools:targetApi="31">
         <activity
-            android:name=".LinearLayoutActivity"
+            android:name=".ImageTextActivity"
             android:exported="false" />
+        <!-- <activity -->
+        <!-- android:name=".ButtonEnableActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".ButtonListenActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".ButtonStyleActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".ScrollViewActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".GridLayoutActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".RelativeLayoutActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".LinearLayoutActivity" -->
+        <!-- android:exported="false" /> -->
         <activity
-            android:name=".ViewMarginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".ButtonEnableActivity"
             android:exported="true"
             android:theme="@style/Theme.Koerdemo">
             <intent-filter>
