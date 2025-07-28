@@ -1,30 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chapter4">
 
-    <application>
-<!--        <activity-->
-<!--            android:name=".ActionUriActivity"-->
-<!--            android:exported="false" />-->
-<!--        <activity-->
-<!--            android:name=".LoginSuccessActivity"-->
-<!--            android:exported="false"-->
-<!--            android:theme="@style/Theme.Koerdemo" /> &lt;!&ndash; <activity &ndash;&gt;-->
-        <!-- android:name=".LoginputActivity" -->
-        <!-- android:exported="false" /> -->
-        <!-- <activity -->
-        <!-- android:name=".JumpSecondActivity" -->
-        <!-- android:exported="false" -->
-        <!-- android:theme="@style/Theme.Koerdemo" /> &lt;!&ndash; <activity &ndash;&gt; -->
-        <!-- android:name=".JumpFirstActivity" -->
-        <!-- android:exported="false" /> -->
-        <!-- <activity -->
-        <!-- android:name=".FinishActivity" -->
-        <!-- android:exported="false" -->
-        <!-- android:theme="@style/Theme.Koerdemo" /> &lt;!&ndash; <activity &ndash;&gt; -->
-        <!-- android:name=".StartActivity" -->
-        <!-- android:exported="false" /> -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Koerdemo">
         <activity
-            android:name=".ActionUriActivity"
+            android:name=".JumpFirstActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginputActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActStartActivity"
             android:exported="true"
             android:theme="@style/Theme.Koerdemo">
             <intent-filter>
@@ -32,6 +23,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
         </activity>
     </application>
 

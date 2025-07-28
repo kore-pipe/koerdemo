@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">koerdemo</string>
+    <string name="app_name">chapter04</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -7,7 +7,13 @@
     <string name="previous">Previous</string>
     <string name="test2">7月23日的努力</string>
     <string name="hello">你好，非常努力的董可儿</string>
-
+    <string name="weather_string">晴天</string>
+    <string name="first_short">first</string>
+    <string name="first_long">启停活动</string>
+    <string name="second_short">second</string>
+    <string name="second_long">来回跳转</string>
+    <string name="third_short">third</string>
+    <string name="third_long">登陆返回</string>
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
