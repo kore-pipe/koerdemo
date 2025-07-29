@@ -5,36 +5,46 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-    <LinearLayout
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:padding="5dp"
+        android:text="请选择您的性别" />
+    <RadioGroup
+        android:id="@+id/rg_gender"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <TextView
+        <RadioButton
+            android:id="@+id/rb_male"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:padding="5dp"
-            android:text="switch开关"
-            android:layout_gravity="start"
-           />
-        <Switch
-            android:id="@+id/sw_status"
-            android:layout_width="80dp"
-            android:layout_height="30dp"
-            android:padding="5dp"
-            android:layout_gravity="end"
-            />
+            android:layout_weight="1"
+            android:text="男"/>
 
-    </LinearLayout>
+        <RadioButton
+            android:id="@+id/rb_fmale"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="女"/>
+
+
+
+
+    </RadioGroup>
+
     <TextView
         android:id="@+id/tv_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:gravity="start"
 
         />
-
 
 </LinearLayout>
