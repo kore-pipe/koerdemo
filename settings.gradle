@@ -1,3 +1,4 @@
 rootProject.name='koerdemo'
 include ':app'
 include ':chapter4'
+include ':chapter5'
