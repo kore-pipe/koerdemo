@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- 按钮容器 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <!-- 创建数据库按钮 -->
+        <Button
+            android:id="@+id/btn_create"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="创建数据库"
+            android:onClick="createDatabase"/>
+
+        <!-- 删除数据库按钮 -->
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="删除数据库"
+            android:onClick="deleteDatabase"/>
+    </LinearLayout>
+
+    <!-- 数据库状态文本视图 -->
+    <TextView
+        android:id="@+id/tv_database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

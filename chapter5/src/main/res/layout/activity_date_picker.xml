@@ -7,27 +7,31 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="5dp">
-
-
-    <EditText
-        android:id="@+id/et_phone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="请输入11位手机号码时键盘自动隐藏"
-        android:inputType="number"
-        android:maxLength="11"/>
-    <EditText
-        android:id="@+id/et_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="请输入6位时键盘自动隐藏"
-        android:inputType="numberPassword"
-        android:maxLength="11"/>
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="登陆"/>
+        android:text="选择日期"/>
+
+    <DatePicker
+        android:id="@+id/dp_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"/>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"/>
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
 
 
 

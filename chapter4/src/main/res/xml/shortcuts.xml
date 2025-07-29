@@ -9,8 +9,8 @@
         >
         <intent
             android:action = "android.intent.action.VIEW"
-            android:targetPackage = "com.example.chapter4"
-            android:targetClass = "com.example.chapter4.ActStartActivity"
+            android:targetPackage = "com.example.chapter6"
+            android:targetClass = "com.example.chapter6.ActStartActivity"
             />
         <categories android:name = "android.shortcut.conversation"/>
 
@@ -25,8 +25,8 @@
         >
         <intent
             android:action = "android.intent.action.VIEW"
-            android:targetPackage = "com.example.chapter4"
-            android:targetClass = "com.example.chapter4.JumpFirstActivity"
+            android:targetPackage = "com.example.chapter6"
+            android:targetClass = "com.example.chapter6.JumpFirstActivity"
             />
         <categories android:name = "android.shortcut.conversation"/>
 
@@ -41,8 +41,8 @@
         >
         <intent
             android:action = "android.intent.action.VIEW"
-            android:targetPackage = "com.example.chapter4"
-            android:targetClass = "com.example.chapter4.LoginputActivity"
+            android:targetPackage = "com.example.chapter6"
+            android:targetClass = "com.example.chapter6.LoginputActivity"
             />
         <categories android:name = "android.shortcut.conversation"/>
 

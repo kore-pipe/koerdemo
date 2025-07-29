@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.chapter4'
+    namespace 'com.example.chapter6'
     compileSdk 34
 
     defaultConfig {

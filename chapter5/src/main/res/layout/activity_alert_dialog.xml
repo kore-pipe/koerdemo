@@ -8,28 +8,19 @@
     android:orientation="vertical"
     android:padding="5dp">
 
-
-    <EditText
-        android:id="@+id/et_phone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="请输入11位手机号码时键盘自动隐藏"
-        android:inputType="number"
-        android:maxLength="11"/>
-    <EditText
-        android:id="@+id/et_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="请输入6位时键盘自动隐藏"
-        android:inputType="numberPassword"
-        android:maxLength="11"/>
     <Button
-        android:id="@+id/btn_login"
+        android:id="@+id/btn_alert"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="登陆"/>
-
-
+        android:text="弹出提醒对话框"/>
+    <TextView
+        android:id="@+id/tv_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:hint="我的边框不见了"
+        android:inputType="text"/>
 
 
 </LinearLayout>
