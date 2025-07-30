@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <!-- 读写通讯录按钮 -->
+    <Button
+        android:id="@+id/btn_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="#8A2BE2"
+        android:padding="10dp"
+        android:text="读写通讯录"
+        android:textColor="#FFFFFF" />
+
+    <!-- 收发短信按钮 -->
+    <Button
+        android:id="@+id/btn_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8A2BE2"
+        android:padding="10dp"
+        android:text="收发短信"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

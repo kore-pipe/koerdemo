@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.chapter7_client'
+    namespace 'com.example.chapter7_server'
     compileSdk 34
 
     defaultConfig {

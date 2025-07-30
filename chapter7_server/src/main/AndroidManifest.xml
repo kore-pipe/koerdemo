@@ -9,13 +9,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Koerdemo">
         <provider
-            android:name="com.example.chapter7_client.provider.UserInfoProvider"
-            android:authorities="com.example.chapter7_client.provider.UserInfoProvider"
+            android:name=".provider.UserInfoProvider"
+            android:authorities="com.example.chapter7_server.provider.UserInfoProvider"
             android:enabled="true"
             android:exported="true"></provider>
 
         <activity
-            android:name="com.example.chapter7_client.MainActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Koerdemo">
             <intent-filter>

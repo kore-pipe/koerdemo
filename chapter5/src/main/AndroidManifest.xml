@@ -51,7 +51,7 @@
         <!-- android:name=".LoginputActivity" -->
         <!-- android:exported="true" /> -->
         <activity
-            android:name="com.example.chapter7_client.TimePickerActivity"
+            android:name="com.example.chapter7_server.TimePickerActivity"
             android:exported="true"
             android:theme="@style/Theme.Koerdemo">
             <intent-filter>
