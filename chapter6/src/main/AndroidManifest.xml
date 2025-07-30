@@ -14,8 +14,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Koerdemo">
 <!--        <activity-->
-<!--            android:name=".AppWriteActivity"-->
+<!--            android:name=".RoomWriteActivity2"-->
 <!--            android:exported="false" />-->
+        <!-- <activity -->
+        <!-- android:name=".AppWriteActivity" -->
+        <!-- android:exported="false" /> -->
         <!-- <activity -->
         <!-- android:name=".MainActivity" -->
         <!-- android:exported="false" /> -->
@@ -38,7 +41,7 @@
         <!-- android:name=".LoginputActivity" -->
         <!-- android:exported="true" /> -->
         <activity
-            android:name=".AppWriteActivity"
+            android:name=".RoomWriteActivity2"
             android:exported="true"
             android:theme="@style/Theme.Koerdemo">
             <intent-filter>

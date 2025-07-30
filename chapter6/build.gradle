@@ -11,6 +11,15 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
+
+        javaCompileOptions{
+            annotationProcessorOptions{
+                arguments += [
+                        "room.schemaLocation":"$projectDir/schemas".toString(),
+                        "room.incremental":"true"
+                ]
+            }
+        }
     }
 
     buildTypes {
@@ -42,8 +51,12 @@ dependencies {
 
     implementation 'androidx.navigation:navigation-fragment-ktx:2.6.0'
     implementation 'androidx.navigation:navigation-ui-ktx:2.6.0'
-    implementation 'androidx.room:room-runtime:2.2.5'
-    annotationProcessor 'androidx.room:room-compiler:2.2.5'
+    def room_version = "2.4.3" // 或更高版本
+
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+    // 如果使用 Kotlin
+    // kapt "androidx.room:room-compiler:$room_version"
 
 
 
