@@ -11,5 +11,6 @@ public class viewUtil {
         InputMethodManager systemService = (InputMethodManager) act.getSystemService(Context.INPUT_METHOD_SERVICE);
         systemService.hideSoftInputFromWindow(v.getWindowToken(), 0);
 
+
     }
 }
