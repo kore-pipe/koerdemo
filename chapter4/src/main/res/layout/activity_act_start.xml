@@ -6,6 +6,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ActStartActivity">
+    tools:context="com.example.chapter4.ActStartActivity">
 
   </androidx.constraintlayout.widget.ConstraintLayout>
