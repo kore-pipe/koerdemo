@@ -9,8 +9,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Koerdemo">
 <!--        <activity-->
-<!--            android:name=".ListViewActivity"-->
+<!--            android:name=".LaunchSimpleActivity"-->
 <!--            android:exported="false" />-->
+        <!-- <activity -->
+        <!-- android:name=".PagerTabActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".ViewPagerActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".GridViewActivity" -->
+        <!-- android:exported="false" /> -->
+        <!-- <activity -->
+        <!-- android:name=".ListViewActivity" -->
+        <!-- android:exported="false" /> -->
         <!-- <activity -->
         <!-- android:name=".BaseAdapterActivity" -->
         <!-- android:exported="false" /> -->
@@ -21,7 +33,7 @@
         <!-- android:name="com.example.chapter8.SpinnerDropDownActivity" -->
         <!-- android:exported="false" /> -->
         <activity
-            android:name=".ListViewActivity"
+            android:name=".LaunchSimpleActivity"
             android:exported="true"
             android:theme="@style/Theme.Koerdemo">
             <intent-filter>
