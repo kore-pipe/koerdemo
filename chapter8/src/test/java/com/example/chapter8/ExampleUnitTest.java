@@ -1,4 +1,4 @@
-package com.example.chapter7_server;
+package com.example.chapter8;
 
 import org.junit.Test;
 

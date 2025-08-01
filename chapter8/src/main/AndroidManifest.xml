@@ -9,10 +9,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Koerdemo">
         <activity
-            android:name="com.example.chapter8.SpinnerDropDownActivity"
+            android:name=".SpinnerIconActivity"
             android:exported="false" />
+        <!-- <activity -->
+        <!-- android:name="com.example.chapter8.SpinnerDropDownActivity" -->
+        <!-- android:exported="false" /> -->
         <activity
-            android:name=".MainActivity"
+            android:name=".SpinnerDropDownActivity"
             android:exported="true"
             android:theme="@style/Theme.Koerdemo">
             <intent-filter>

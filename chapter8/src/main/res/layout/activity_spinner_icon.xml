@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="下拉列表框"
+        android:text="行星的简单适配器"
         android:textSize="17sp"/>
     <Spinner
         android:id="@+id/sp_dropDown"
@@ -17,6 +17,6 @@
         android:layout_height="wrap_content"
         android:spinnerMode="dropdown"/>
 
-    
+
 
 </LinearLayout>
