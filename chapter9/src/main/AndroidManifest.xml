@@ -8,9 +8,20 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.Koerdemo">
-<!--        <activity-->
-<!--            android:name=".BroadStandardActivity"-->
-<!--            android:exported="false" />-->
+        <activity
+            android:name=".AlarmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SystemNetWorkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SystemMinuteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BroadOrderActivity"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".BroadStandardActivity" -->
+        <!-- android:exported="false" /> -->
         <activity
             android:name=".BroadStandardActivity"
             android:exported="true"
